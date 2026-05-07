@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIANO — Le transport Business Class des cadres de CFC</title>
+<link href="./VIANO — Le transport Business Class des cadres de CFC_files/css2" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --white:#ffffff;--bg:#f0f4ff;--bg2:#e4ecff;--bg3:#cdd9f5;
+  --dark:#080f24;--dark2:#101a3a;--ink2:#4a5a80;--ink3:#8090b0;
+  --blue:#1a5cf5;--blue2:#4a8aff;--blue3:rgba(26,92,245,.1);--blueb:rgba(26,92,245,.2);
+  --cyan:#00c8e8;--green:#1a9962;--greenl:rgba(26,153,98,.1);--greenb:rgba(26,153,98,.25);
+  --red:#c0392b;
+  --sans:'Plus Jakarta Sans',sans-serif;--display:'Syne',sans-serif;
+  --shadow:0 2px 16px rgba(8,15,36,.07);--shadow2:0 12px 48px rgba(8,15,36,.14);
+}
+html{scroll-behavior:smooth}
+body{background:var(--white);color:var(--dark);font-family:var(--sans);overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.96);backdrop-filter:blur(20px);border-bottom:1px solid var(--bg3);height:68px;display:flex;align-items:center;padding:0 6vw;justify-content:space-between}
+.nav-logo{font-family:var(--display);font-size:22px;font-weight:800;color:var(--blue);letter-spacing:-.04em}
+.nav-center{display:flex;gap:2rem}
+.nav-center a{font-size:13.5px;color:var(--ink2);text-decoration:none;font-weight:500;transition:color .18s}
+.nav-center a:hover{color:var(--blue)}
+.nav-right{display:flex;gap:.75rem;align-items:center}
+.nav-login{font-size:13px;color:var(--ink2);text-decoration:none;font-weight:600;padding:.5rem 1rem}
+.nav-cta{background:var(--blue);color:#fff;padding:.6rem 1.4rem;border-radius:8px;font-size:13px;font-weight:700;text-decoration:none;transition:all .2s}
+.nav-cta:hover{background:#1248cc;box-shadow:0 6px 20px rgba(26,92,245,.35)}
+.nav-back{font-size:12px;color:var(--ink3);text-decoration:none;padding:.5rem 1rem;border:1px solid var(--bg3);border-radius:8px;transition:all .2s}
+.nav-back:hover{border-color:var(--blueb);color:var(--blue)}
+
+/* HERO */
+.hero{padding:5.5rem 6vw 5rem;display:grid;grid-template-columns:1fr 480px;gap:5rem;align-items:center;max-width:1280px;margin:0 auto}
+.hero-tag{display:inline-flex;align-items:center;gap:.5rem;background:var(--blue3);border:1px solid var(--blueb);border-radius:100px;padding:.35rem 1rem;font-size:11.5px;font-weight:700;color:var(--blue);letter-spacing:.05em;margin-bottom:1.5rem}
+.hero-tag::before{content:'';width:6px;height:6px;background:var(--blue);border-radius:50%;animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hero h1{font-family:var(--display);font-size:clamp(2.6rem,4.5vw,4.2rem);font-weight:800;letter-spacing:-.05em;line-height:1.02;margin-bottom:1.25rem;color:var(--dark)}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--blue),var(--cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:17px;color:var(--ink2);line-height:1.8;margin-bottom:2rem;font-weight:400;max-width:480px}
+.hero-btns{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1.25rem}
+.btn-main{background:var(--blue);color:#fff;padding:1rem 2.2rem;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.5rem}
+.btn-main:hover{background:#1248cc;transform:translateY(-2px);box-shadow:0 12px 36px rgba(26,92,245,.35)}
+.btn-sec{border:1.5px solid var(--bg3);color:var(--ink2);padding:1rem 1.75rem;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;transition:all .2s}
+.btn-sec:hover{border-color:var(--blueb);color:var(--blue)}
+.hero-disc{font-size:11.5px;color:var(--ink3);display:flex;align-items:center;gap:.4rem}
+.hero-trust{display:flex;align-items:center;gap:.75rem;margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid var(--bg3)}
+.trust-ico{font-size:1.8rem}
+.trust-txt{font-size:12.5px;color:var(--ink2)}
+.trust-txt strong{color:var(--dark);font-weight:700}
+
+/* HERO CARD — van booking mockup */
+.hero-visual{position:relative}
+.van-card{background:#fff;border:1px solid var(--bg3);border-radius:20px;box-shadow:var(--shadow2);overflow:hidden}
+.van-card-header{background:linear-gradient(135deg,var(--dark),var(--dark2));padding:1.5rem;color:#fff;position:relative;overflow:hidden}
+.van-card-header::before{content:'🚐';position:absolute;right:-1rem;bottom:-1rem;font-size:5rem;opacity:.15}
+.van-route{display:flex;align-items:center;gap:.75rem;margin-bottom:.75rem}
+.van-route-dot{width:10px;height:10px;border-radius:50%;background:var(--cyan)}
+.van-route-line{flex:1;height:1px;background:rgba(255,255,255,.15)}
+.van-route-dot2{width:10px;height:10px;border-radius:50%;background:var(--blue2)}
+.van-route-label{font-size:11px;color:rgba(255,255,255,.5);margin-bottom:.25rem}
+.van-route-place{font-family:var(--display);font-size:16px;font-weight:800}
+.van-card-body{padding:1.25rem}
+.van-badge-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.van-badge{background:var(--bg);border:1px solid var(--bg3);border-radius:100px;padding:.28rem .75rem;font-size:11px;font-weight:600;color:var(--ink2)}
+.van-seats{display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem;margin-bottom:1.25rem}
+.seat{width:100%;aspect-ratio:1;border-radius:8px;border:1.5px solid var(--bg3);display:flex;align-items:center;justify-content:center;font-size:14px;transition:all .2s}
+.seat.taken{background:var(--blue3);border-color:var(--blueb)}
+.seat.free{background:var(--bg);cursor:pointer}
+.seat.free:hover{background:var(--blue3);border-color:var(--blueb)}
+.van-price{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:var(--bg);border-radius:10px}
+.van-price-label{font-size:12px;color:var(--ink3)}
+.van-price-val{font-family:var(--display);font-size:20px;font-weight:800;color:var(--blue)}
+.van-btn{width:100%;background:var(--blue);color:#fff;border:none;border-radius:10px;padding:.9rem;font-size:14px;font-weight:700;cursor:pointer;margin-top:.75rem;transition:all .2s;font-family:var(--sans)}
+.van-btn:hover{background:#1248cc}
+/* float badges */
+.fb{position:absolute;background:#fff;border:1px solid var(--bg3);border-radius:12px;padding:.6rem 1rem;box-shadow:var(--shadow2);display:flex;align-items:center;gap:.5rem;font-size:12px;font-weight:600;white-space:nowrap;animation:flt 3s ease-in-out infinite}
+.fb.a{top:-1rem;right:-2rem;animation-delay:0s}
+.fb.b{bottom:1rem;left:-2rem;animation-delay:1.5s}
+@keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+/* PRESS BAR */
+.press-bar{border-top:1px solid var(--bg3);border-bottom:1px solid var(--bg3);background:var(--bg);padding:1.5rem 6vw}
+.press-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:3rem;justify-content:center;flex-wrap:wrap}
+.press-label{font-size:11px;color:var(--ink3);font-weight:600;letter-spacing:.1em}
+.press-logos{display:flex;gap:3rem;align-items:center;flex-wrap:wrap;justify-content:center}
+.press-logo{font-family:var(--display);font-size:14px;font-weight:800;color:var(--bg3)}
+
+/* STATS */
+.stats-strip{padding:4rem 6vw;background:var(--dark);color:#fff}
+.stats-inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;text-align:center}
+.stat-val{font-family:var(--display);font-size:clamp(2.2rem,4vw,3.5rem);font-weight:800;color:var(--blue2);letter-spacing:-.04em;margin-bottom:.35rem}
+.stat-desc{font-size:14px;color:rgba(255,255,255,.5);line-height:1.5}
+.stat-desc em{color:rgba(255,255,255,.7);font-style:normal;font-weight:600}
+
+/* GENERIC SECTION */
+.section{padding:6rem 6vw;max-width:1280px;margin:0 auto}
+.divider{height:1px;background:var(--bg3);margin:0 6vw}
+.sec-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--blue);background:var(--blue3);border:1px solid var(--blueb);padding:.3rem .9rem;border-radius:100px;margin-bottom:1rem}
+.sec-title{font-family:var(--display);font-size:clamp(2rem,3.5vw,3rem);font-weight:800;letter-spacing:-.04em;line-height:1.08;margin-bottom:1rem}
+.sec-sub{font-size:16px;color:var(--ink2);line-height:1.75;max-width:540px;margin-bottom:3rem}
+
+/* PROBLEM vs SOLUTION */
+.ps-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-bottom:2rem}
+.ps-panel{border-radius:16px;padding:2rem}
+.ps-panel.prob{background:rgba(192,57,43,.05);border:1px solid rgba(192,57,43,.15)}
+.ps-panel.sol{background:var(--blue3);border:1px solid var(--blueb)}
+.ps-panel-head{font-size:11px;font-weight:800;letter-spacing:.12em;margin-bottom:1.25rem;display:flex;align-items:center;gap:.5rem}
+.ps-panel.prob .ps-panel-head{color:var(--red)}
+.ps-panel.sol .ps-panel-head{color:var(--blue)}
+.ps-panel h3{font-family:var(--display);font-size:18px;font-weight:800;margin-bottom:1.25rem}
+.ps-list{display:flex;flex-direction:column;gap:.85rem}
+.ps-item{display:flex;gap:.75rem;font-size:13.5px;color:var(--ink2);line-height:1.5;align-items:flex-start}
+.ps-item strong{color:var(--dark);display:block;margin-bottom:.15rem}
+
+/* HACK B2B */
+.hack-wrap{background:linear-gradient(135deg,var(--dark),var(--dark2));border-radius:20px;padding:3rem;color:#fff;position:relative;overflow:hidden}
+.hack-wrap::before{content:'DRH';position:absolute;right:-1rem;top:50%;transform:translateY(-50%);font-family:var(--display);font-size:10rem;font-weight:800;color:rgba(255,255,255,.04);pointer-events:none}
+.hack-tag{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--blue2);margin-bottom:.75rem}
+.hack-title{font-family:var(--display);font-size:clamp(1.6rem,3vw,2.4rem);font-weight:800;letter-spacing:-.04em;margin-bottom:1rem;line-height:1.1}
+.hack-sub{font-size:15px;color:rgba(255,255,255,.6);line-height:1.75;margin-bottom:2rem;max-width:500px}
+.hack-sub strong{color:#fff}
+.hack-flow{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.hack-node{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:1rem 1.25rem;text-align:center;flex:1;min-width:140px}
+.hack-node-label{font-size:10px;color:rgba(255,255,255,.4);letter-spacing:.1em;margin-bottom:.4rem}
+.hack-node-val{font-family:var(--display);font-size:16px;font-weight:800;color:#fff}
+.hack-arrow{color:var(--blue2);font-size:24px;flex-shrink:0}
+.hack-result-node{background:rgba(26,153,98,.15);border:1px solid rgba(26,153,98,.3);border-radius:12px;padding:1rem 1.25rem;text-align:center;flex:1;min-width:140px}
+.hack-result-node .hack-node-label{color:rgba(61,214,140,.6)}
+.hack-result-node .hack-node-val{color:#3dd68c}
+
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.price-card{background:#fff;border:1.5px solid var(--bg3);border-radius:16px;padding:2rem;position:relative;transition:all .22s}
+.price-card:hover{border-color:var(--blueb);box-shadow:var(--shadow2);transform:translateY(-4px)}
+.price-card.featured{border-color:var(--blue);box-shadow:0 0 0 4px var(--blue3)}
+.price-card.featured::before{content:'✦ RECOMMANDÉ';position:absolute;top:-1px;left:50%;transform:translateX(-50%);background:var(--blue);color:#fff;font-size:10px;font-weight:800;letter-spacing:.1em;padding:.3rem 1.1rem;border-radius:0 0 10px 10px}
+.price-type{font-size:11px;font-weight:700;color:var(--ink3);letter-spacing:.1em;margin-bottom:1rem}
+.price-amount{font-family:var(--display);font-size:2rem;font-weight:800;letter-spacing:-.04em;margin-bottom:.2rem}
+.price-period{font-size:13px;color:var(--ink3);margin-bottom:.25rem}
+.price-margin{font-size:13px;font-weight:700;padding:.3rem .75rem;border-radius:100px;display:inline-block;margin-bottom:1.25rem}
+.price-margin.high{background:var(--greenl);color:var(--green);border:1px solid var(--greenb)}
+.price-margin.med{background:var(--blue3);color:var(--blue);border:1px solid var(--blueb)}
+.price-rows{border-top:1px solid var(--bg3);padding-top:1.25rem;display:flex;flex-direction:column;gap:.6rem}
+.price-row{display:flex;justify-content:space-between;font-size:13px}
+.price-row-label{color:var(--ink2)}
+.price-row-val{font-weight:700;color:var(--dark)}
+.price-note{margin-top:1rem;padding-top:.75rem;border-top:1px solid var(--bg3);font-size:12px;color:var(--ink3);line-height:1.6}
+
+/* STEPS */
+.steps-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;position:relative}
+.steps-row::before{content:'';position:absolute;top:32px;left:10%;right:10%;height:1px;background:var(--blueb);z-index:0}
+.step{position:relative;z-index:1;text-align:center}
+.step-num{width:64px;height:64px;border-radius:50%;background:var(--blue);color:#fff;font-family:var(--display);font-size:20px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;box-shadow:0 4px 20px rgba(26,92,245,.3);transition:transform .2s}
+.step:hover .step-num{transform:scale(1.08)}
+.step-ico{font-size:22px;margin-bottom:.5rem}
+.step h3{font-family:var(--display);font-size:16px;font-weight:800;margin-bottom:.5rem}
+.step p{font-size:13px;color:var(--ink2);line-height:1.6}
+
+/* ROADMAP */
+.rm-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+.rm-card{background:var(--bg);border:1px solid var(--bg3);border-radius:14px;padding:1.5rem;transition:all .22s}
+.rm-card.active{background:var(--blue3);border-color:var(--blueb)}
+.rm-card:hover{border-color:var(--blueb);transform:translateY(-3px)}
+.rm-num{font-family:var(--display);font-size:2.5rem;font-weight:800;color:rgba(26,92,245,.15);margin-bottom:.5rem}
+.rm-card.active .rm-num{color:rgba(26,92,245,.3)}
+.rm-phase{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--ink3);margin-bottom:.6rem}
+.rm-card.active .rm-phase{color:var(--blue)}
+.rm-title{font-family:var(--display);font-size:15px;font-weight:800;margin-bottom:.6rem}
+.rm-desc{font-size:12.5px;color:var(--ink2);line-height:1.6}
+
+/* CTA */
+.cta-section{background:var(--dark);padding:6rem 6vw;text-align:center;position:relative;overflow:hidden}
+.cta-section::before{content:'VIANO';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-family:var(--display);font-size:22vw;font-weight:800;color:rgba(255,255,255,.03);white-space:nowrap;letter-spacing:-.06em;pointer-events:none}
+.cta-inner{position:relative;z-index:1;max-width:600px;margin:0 auto}
+.cta-title{font-family:var(--display);font-size:clamp(2.2rem,5vw,4rem);font-weight:800;letter-spacing:-.05em;color:#fff;margin-bottom:1rem;line-height:1.05}
+.cta-sub{font-size:16px;color:rgba(255,255,255,.55);margin-bottom:2rem;line-height:1.75}
+.btn-white{background:#fff;color:var(--blue);padding:1.1rem 2.5rem;border-radius:10px;font-size:15px;font-weight:800;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:all .25s}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(0,0,0,.3)}
+
+footer{background:var(--dark2);padding:2.5rem 6vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;border-top:1px solid rgba(255,255,255,.06)}
+.footer-logo{font-family:var(--display);font-size:18px;font-weight:800;color:var(--blue2)}
+.footer-disc{font-size:11px;color:rgba(255,255,255,.3);max-width:480px;line-height:1.6}
+.footer-back{font-size:12px;color:rgba(255,255,255,.4);text-decoration:none;border:1px solid rgba(255,255,255,.1);padding:.4rem 1rem;border-radius:8px;transition:color .2s}
+.footer-back:hover{color:#fff}
+
+@media(max-width:900px){
+  .hero,.ps-grid,.pricing-grid,.rm-grid,.steps-row{grid-template-columns:1fr}
+  .hero-visual{display:none}
+  .stats-inner{grid-template-columns:1fr}
+  nav .nav-center{display:none}
+  .steps-row::before{display:none}
+  .hack-flow{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-logo">VIANO</span>
+  <div class="nav-center">
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#solution">La solution</a>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#pricing">Tarifs</a>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#roadmap">Roadmap</a>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#partenaire">Devenir partenaire</a>
+  </div>
+  <div class="nav-right">
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/reda_site_merged.html" class="nav-back">← Portfolio</a>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#" class="nav-login">Se connecter</a>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#" class="nav-cta">Devenir partenaire →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section style="border-bottom:1px solid var(--bg3)">
+<div class="hero">
+  <div>
+    <div class="hero-tag">🚐 TRANSITTECH B2B · CASABLANCA FINANCE CITY</div>
+    <h1>Le transport <em>Business Class</em><br>des cadres de CFC</h1>
+    <p class="hero-sub">Entre le taxi imprévisible et la voiture personnelle bloquée aux heures de pointe — VIANO connecte les cadres de Casablanca Finance City à des vans premium qui les attendent.</p>
+    <div class="hero-btns">
+      <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#" class="btn-main">Devenir partenaire →</a>
+      <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#solution" class="btn-sec">Voir la solution ↓</a>
+    </div>
+    <p class="hero-disc">⚠ Ce site est à titre informatif. VIANO est en phase de développement.</p>
+    <div class="hero-trust">
+      <span class="trust-ico">🏆</span>
+      <span class="trust-txt">Inspiré de <strong>Shuttl (Inde)</strong> et <strong>RideWithVia (US/EU)</strong> — le modèle est prouvé à l'international</span>
+    </div>
+  </div>
+  <div class="hero-visual" style="position:relative">
+    <div class="fb a">✅ Wi-Fi 5G dans le van</div>
+    <div class="van-card">
+      <div class="van-card-header">
+        <div style="font-size:11px;color:rgba(255,255,255,.4);margin-bottom:1rem;letter-spacing:.06em">TRAJET DU MATIN · LUNDI</div>
+        <div class="van-route">
+          <div>
+            <div class="van-route-label">DÉPART</div>
+            <div class="van-route-place">Bouskoura</div>
+          </div>
+          <div style="flex:1;display:flex;align-items:center;gap:.4rem;padding:0 .5rem">
+            <div class="van-route-dot"></div>
+            <div class="van-route-line"></div>
+            <div class="van-route-dot2"></div>
+          </div>
+          <div style="text-align:right">
+            <div class="van-route-label">ARRIVÉE</div>
+            <div class="van-route-place">CFC Tower</div>
+          </div>
+        </div>
+        <div style="font-family:var(--display);font-size:13px;color:rgba(255,255,255,.5)">08:15 → 08:52 · <span style="color:#3dd68c">À l'heure garantie</span></div>
+      </div>
+      <div class="van-card-body">
+        <div class="van-badge-row">
+          <span class="van-badge">🛜 Wi-Fi 5G</span>
+          <span class="van-badge">❄️ Clim</span>
+          <span class="van-badge">🎧 Silence</span>
+          <span class="van-badge">9 places max</span>
+        </div>
+        <div style="font-size:11px;color:var(--ink3);margin-bottom:.4rem;font-weight:600">SIÈGES DISPONIBLES</div>
+        <div class="van-seats">
+          <div class="seat taken">👤</div><div class="seat taken">👤</div><div class="seat taken">👤</div><div class="seat free">💺</div><div class="seat free">💺</div>
+          <div class="seat taken">👤</div><div class="seat taken">👤</div><div class="seat free">💺</div><div class="seat free">💺</div><div class="seat free">💺</div>
+        </div>
+        <div class="van-price">
+          <div><div class="van-price-label">Abonnement mensuel</div><div style="font-size:11px;color:var(--ink3)">5 trajets / semaine</div></div>
+          <div class="van-price-val">1 100 DH</div>
+        </div>
+        <button class="van-btn">Réserver mon siège →</button>
+      </div>
+    </div>
+    <div class="fb b">📱 Réservation hebdo en 1 clic</div>
+  </div>
+</div>
+</section>
+
+<!-- PRESS -->
+<div class="press-bar">
+  <div class="press-inner">
+    <span class="press-label">MODÈLE INSPIRÉ DE</span>
+    <div class="press-logos">
+      <span class="press-logo">SHUTTL INDIA</span>
+      <span class="press-logo">RIDEVIA US</span>
+      <span class="press-logo">SWVL EGYPT</span>
+      <span class="press-logo">VIA TRANSPORT</span>
+    </div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stats-inner">
+    <div><div class="stat-val">27 500 DH</div><div class="stat-desc"><em>Bénéfice net mensuel</em> projeté pour 5 vans en opération</div></div>
+    <div><div class="stat-val">61%</div><div class="stat-desc"><em>Marge nette</em> sur le modèle B2B flat — revenu garanti par contrat</div></div>
+    <div><div class="stat-val">0 DH</div><div class="stat-desc"><em>CapEx flotte</em> — modèle asset-light, on n'achète aucun véhicule</div></div>
+  </div>
+</div>
+
+<!-- PROBLEM / SOLUTION -->
+<div class="divider"></div>
+<div class="section" id="solution">
+  <div class="sec-tag">LE CONSTAT</div>
+  <h2 class="sec-title">Le transport à CFC<br>est cassé.</h2>
+  <p class="sec-sub">Chaque matin, des centaines de cadres galèrent pour aller au bureau. Voilà pourquoi — et comment on corrige ça.</p>
+  <div class="ps-grid">
+    <div class="ps-panel prob">
+      <div class="ps-panel-head">❌ LES PROBLÈMES</div>
+      <h3>Ce que les cadres vivent chaque jour</h3>
+      <div class="ps-list">
+        <div class="ps-item"><span>🚖</span><div><strong>Taxi rouge imprévisible</strong>Aux heures de pointe — impossible à trouver, zéro garantie de ponctualité.</div></div>
+        <div class="ps-item"><span>🚗</span><div><strong>Voiture personnelle</strong>Stationnement cauchemardesque à CFC + carburant cher + stress quotidien.</div></div>
+        <div class="ps-item"><span>📱</span><div><strong>Indrive / Yango / Careem</strong>Trop chers en daily, imprévisibles, et techniquement illégaux en B2B.</div></div>
+        <div class="ps-item"><span>🚌</span><div><strong>Transport d'entreprise classique</strong>Des vans old-school pour de l'inter-ville. Pas conçus pour le daily CFC.</div></div>
+      </div>
+    </div>
+    <div class="ps-panel sol">
+      <div class="ps-panel-head">✅ LA SOLUTION VIANO</div>
+      <h3>L'expérience Executive, au quotidien</h3>
+      <div class="ps-list">
+        <div class="ps-item"><span>🚐</span><div><strong>Vans 9 places premium</strong>Wi-Fi 5G · Climatisation · Intérieur cuir · Silence pour travailler.</div></div>
+        <div class="ps-item"><span>📅</span><div><strong>Réservation hebdomadaire</strong>Book ton siège pour la semaine depuis l'app. Ponctualité garantie.</div></div>
+        <div class="ps-item"><span>📍</span><div><strong>Points de collecte optimisés</strong>Arrêts virtuels à moins de 3 min à pied. Algorithme IA de routage.</div></div>
+        <div class="ps-item"><span>🛡️</span><div><strong>Plan B automatique</strong>Panne détectée → taxi de secours via API. Toujours à l'heure.</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HACK B2B -->
+<div class="divider"></div>
+<div class="section">
+  <div class="sec-tag">L'ARGUMENT DÉCISIF</div>
+  <h2 class="sec-title">Ce que votre DRH<br>va adorer.</h2>
+  <div class="hack-wrap">
+    <div class="hack-tag">⚡ LE HACK FISCAL B2B</div>
+    <div class="hack-title">L'indemnité transport devient<br>une déduction fiscale.</div>
+    <p class="hack-sub">Au Maroc, l'indemnité de transport est de <strong>500 DH/employé/mois</strong>, chargée socialement. VIANO transforme cette prime en prestation de service — récupération de TVA + réduction d'IS. L'employé ne débourse rien de plus.</p>
+    <div class="hack-flow">
+      <div class="hack-node"><div class="hack-node-label">AVANT</div><div class="hack-node-val">500 DH prime<br><small style="font-size:12px;opacity:.6">chargée socialement</small></div></div>
+      <div class="hack-arrow">→</div>
+      <div class="hack-node"><div class="hack-node-label">AVEC VIANO</div><div class="hack-node-val">Prestation<br><small style="font-size:12px;opacity:.6">facturée à la boite</small></div></div>
+      <div class="hack-arrow">→</div>
+      <div class="hack-result-node"><div class="hack-node-label">RÉSULTAT</div><div class="hack-node-val">TVA récupérée<br><small style="font-size:12px;color:rgba(61,214,140,.7)">IS réduit · Employé content</small></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="divider"></div>
+<div class="section" id="comment">
+  <div class="sec-tag">LA PLATEFORME</div>
+  <h2 class="sec-title">Comment ça fonctionne<br>pour vos employés ?</h2>
+  <p class="sec-sub">4 étapes simples du premier trajet à la fin du mois.</p>
+  <div class="steps-row">
+    <div class="step"><div class="step-num">01</div><div class="step-ico">📱</div><h3>Je télécharge l'app</h3><p>Inscription rapide. L'entreprise prend en charge l'abonnement directement.</p></div>
+    <div class="step"><div class="step-num">02</div><div class="step-ico">📅</div><h3>Je réserve à la semaine</h3><p>Je sélectionne mes trajets aller/retour pour la semaine en quelques secondes.</p></div>
+    <div class="step"><div class="step-num">03</div><div class="step-ico">📍</div><h3>Je rejoins mon point de collecte</h3><p>Moins de 3 min à pied. Le van m'attend — jamais l'inverse.</p></div>
+    <div class="step"><div class="step-num">04</div><div class="step-ico">💼</div><h3>J'arrive à l'heure, reposé</h3><p>Wi-Fi, silence, climatisation. Je travaille pendant le trajet.</p></div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<div class="divider"></div>
+<div class="section" id="pricing">
+  <div class="sec-tag">MODÈLE FINANCIER</div>
+  <h2 class="sec-title">3 modèles.<br>1 meilleur choix.</h2>
+  <p class="sec-sub">Simulation par van · 2 trajets / jour · 5 jours / semaine</p>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <div class="price-type">TON IDÉE INITIALE</div>
+      <div class="price-amount">7 617 DH</div>
+      <div class="price-period">CA / van / mois</div>
+      <div class="price-margin med">Marge : 17%</div>
+      <div class="price-rows">
+        <div class="price-row"><span class="price-row-label">CA / van / mois</span><span class="price-row-val">7 617 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Charges (driver + ops)</span><span class="price-row-val">6 300 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Bénéfice net</span><span class="price-row-val">1 317 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Seuil</span><span class="price-row-val">8/9 employés</span></div>
+      </div>
+      <div class="price-note">⚠ Si 2 absences le lundi, ton CA baisse directement.</div>
+    </div>
+    <div class="price-card featured">
+      <div class="price-type">MODÈLE B2B FLAT</div>
+      <div class="price-amount">16 000 DH</div>
+      <div class="price-period">CA / van / mois — garanti</div>
+      <div class="price-margin high">Marge : 61% 🔥</div>
+      <div class="price-rows">
+        <div class="price-row"><span class="price-row-label">CA / van / mois</span><span class="price-row-val">16 000 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Charges (driver + ops)</span><span class="price-row-val">6 300 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Bénéfice net</span><span class="price-row-val">9 700 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Seuil</span><span class="price-row-val">Garanti par contrat</span></div>
+      </div>
+      <div class="price-note">L'entreprise paie 16K/van quoi qu'il arrive. C'est elle qui assume le coût des absences.</div>
+    </div>
+    <div class="price-card">
+      <div class="price-type">MODÈLE HYBRIDE</div>
+      <div class="price-amount">10 150 DH</div>
+      <div class="price-period">CA / van / mois</div>
+      <div class="price-margin med">Marge : 38%</div>
+      <div class="price-rows">
+        <div class="price-row"><span class="price-row-label">CA / van / mois</span><span class="price-row-val">10 150 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Charges (driver + ops)</span><span class="price-row-val">6 300 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Bénéfice net</span><span class="price-row-val">3 850 DH</span></div>
+        <div class="price-row"><span class="price-row-label">Seuil</span><span class="price-row-val">6/9 employés</span></div>
+      </div>
+      <div class="price-note">Meilleur que le modèle A mais toujours dépendant du taux de présence.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ROADMAP -->
+<div class="divider"></div>
+<div class="section" id="roadmap">
+  <div class="sec-tag">ROADMAP</div>
+  <h2 class="sec-title">De l'idée au premier van.<br>4 phases.</h2>
+  <div class="rm-grid">
+    <div class="rm-card active">
+      <div class="rm-num">01</div>
+      <div class="rm-phase">⚡ EN COURS</div>
+      <div class="rm-title">Légal &amp; Sourcing</div>
+      <div class="rm-desc">Contractualisation transporteurs licenciés (plaques T). Conformité réglementaire. Validation des tarifs partenaires.</div>
+    </div>
+    <div class="rm-card">
+      <div class="rm-num">02</div>
+      <div class="rm-phase">PHASE 2</div>
+      <div class="rm-title">MVP No-Code</div>
+      <div class="rm-desc">App réservation hebdomadaire, tracking GPS live, QR check-in. Arrêts virtuels optimisés à &lt;3 min à pied.</div>
+    </div>
+    <div class="rm-card">
+      <div class="rm-num">03</div>
+      <div class="rm-phase">PHASE 3</div>
+      <div class="rm-title">Pilote Alpha</div>
+      <div class="rm-desc">1 van · 9 passagers · Bouskoura → CFC. Validation NPS, temps de trajet, déclenchement plan B.</div>
+    </div>
+    <div class="rm-card">
+      <div class="rm-num">04</div>
+      <div class="rm-phase">PHASE 4</div>
+      <div class="rm-title">Scale CFC</div>
+      <div class="rm-desc">Contrats cadres tours CFC. Expansion par clusters. Aéroport. Coupe du Monde 2030.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section" id="partenaire">
+  <div class="cta-inner">
+    <div class="sec-tag" style="color:var(--blue2);background:rgba(74,138,255,.1);border-color:rgba(74,138,255,.2)">REJOINDRE VIANO</div>
+    <h2 class="cta-title">Votre entreprise mérite<br>mieux que le taxi.</h2>
+    <p class="cta-sub">DRH, Office Manager ou dirigeant d'une boite à CFC ? Devenez partenaire pilote et testez VIANO gratuitement sur le premier mois.</p>
+    <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/viano_1.html#" class="btn-white">Devenir partenaire pilote →</a>
+  </div>
+</div>
+
+<footer>
+  <span class="footer-logo">VIANO</span>
+  <span class="footer-disc">VIANO est en phase de construction et de recherche de partenaires. Les chiffres présentés sont des simulations basées sur des hypothèses de marché. Ce site est à titre informatif uniquement.</span>
+  <a href="file:///C:/Users/Asus%20Tuf%20F15/Downloads/reda_site_merged.html" class="footer-back">← Portfolio MRH</a>
+</footer>
+
+
+
+</body></html>
